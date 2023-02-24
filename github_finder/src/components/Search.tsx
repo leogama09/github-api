@@ -19,12 +19,12 @@ const Search = ({loadUser}: SearchProps) => {
 
   return (
     <div className={classes.search}>
-        <h2>Busque por um usuário:</h2>
-        <p>Conheça seus melhores repositórios</p>
+        <h2>Search for a user:</h2>
+        <p>Know your best repositories</p>
         <div className={classes.search_container}>
             <input 
                 type="text" 
-                placeholder='Digite o nome do usuário' 
+                placeholder='Write the username...' 
                 onChange={(e) => setUserName(e.target.value)}
                 onKeyDown={handleKeyDown}
             />

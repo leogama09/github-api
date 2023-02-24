@@ -8,7 +8,7 @@ const BackBtn = () => {
   return (
     <>
       <button className={classes.back_btn} onClick={() => navigate(-1)}>
-        Voltar
+        Back
       </button>
     </>
   );

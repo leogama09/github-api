@@ -45,8 +45,8 @@ const Repos = () => {
   return (
     <div className={classes.repos}>
       <BackBtn />
-      <h2>Explore os repositórios do usuário: {username}</h2>
-      {repos && repos.length === 0 && <p>Não há repositórios.</p>}
+      <h2>Explore user repositories: {username}</h2>
+      {repos && repos.length === 0 && <p>There are no repositories.</p>}
       {repos && repos.length > 0 && (
         <div className={classes.repos_container}>
           {repos.map((repo: RepoProps) => (

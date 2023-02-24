@@ -30,7 +30,7 @@ const Repo = ({
         </div>
       </div>
       <a href={html_url} target="_blank" className={classes.repo_btn}>
-        <span>Ver código</span>
+        <span>Read code</span>
         <RiGitRepositoryLine />
       </a>
     </div>

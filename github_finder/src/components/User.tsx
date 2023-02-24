@@ -24,15 +24,15 @@ const User = ({
         )}
         <div className={classes.stats}>
             <div>
-                <p>Seguidores:</p>
+                <p>Followers:</p>
                 <p className={classes.number}>{followers}</p>
             </div>
             <div>
-                <p>Seguindo:</p>
+                <p>Following:</p>
                 <p className={classes.number}>{following}</p>
             </div>
         </div>
-        <Link to={`/repos/${login}`}>Ver melhores projetos</Link>
+        <Link to={`/repos/${login}`}>Check it out the best projects</Link>
     </div>
   )
 }
